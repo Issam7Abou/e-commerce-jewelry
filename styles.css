@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* NAVBAR STYLING */
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eae7e7;
+    padding: 10px;
+  }
+
+  .navbar-brand {
+    font-family: Kaushan Script, sans-serif;
+    font-size: 1.7rem;
+    margin-left: 10px;
+  }
+
+  .navbar-menu {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+  }
+
+  .navbar-menu li {
+    margin-left: 20px;
+  }
+
+  /* Products Styling */
+
+  .products-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
