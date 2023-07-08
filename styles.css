@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +8,6 @@
   }
 
   /* NAVBAR STYLING */
-
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -32,9 +32,70 @@
     margin-left: 20px;
   }
 
-  /* Products Styling */
+  /* Shopping Cart */
+  .cart-icon {
+    position: relative;
+  }
 
+  .cart-dropdown {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    width: 250PX;
+    top: 100%;
+    right: 0;
+    background-color: #d7d2d2;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .item-cart {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .final-buy {
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Heading Styling */
+  .section-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  
+  .section-heading h2 {
+    font-family: Dancing Script, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section-heading p {
+    font-style: italic;
+    font-size: 16px;
+    color: #888;
+  }
+
+  /* Products Styling */
   .products-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .item {
+    width: 200px;
+    background-color: #eae7e7;
+    margin: 10px;
+  }
+
+  img {
+    width: 100%;
   }
